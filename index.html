@@ -10,20 +10,23 @@
 <body>
         <header><h3>Medical Appoiment Form</h3></header>
 
-     
         <img src="img/pic2.jpg" height="400" width="400">
             <br>
-            <hr>
-            <label for="name">Email address</label>
-            <input type="Email address" name="name">
+        <fieldset>
+            <label for="Email">Introduce Email</label>
+            <input type="Email" name="Email" placeholder="email@gmail.com">
             <br>
             <label for="Password">Password</label>
-            <input type="password" name="password">
+            <input type="password" name="password" >
             <br>
             <label for="text"> Log in</label>
-            <input type="text" name="text">
+            <input type="Login" name="text">
             <br>
+            <p><b><u> Forgot the password</u></b></p>
             <br>
+        </fieldset>
+            <br>
+            
 
             <hr>
             
@@ -35,11 +38,13 @@
                 <p><h5>To book yor appoitment, we need to verifiy a few things for Dr.Karavasilis</h5></p>
 
                 <form action="http://httpbin.org/get">
+                <fieldset>
+                    <legend><b>Pacient info</b></legend>
                     <label for="name">Email</label>
                     <br>
-                    <input type="text" name="Email">
+                    <input type="text" name="Email" placeholder="email@gmail.com">
                     <br>
-                    <label for="name">First Name </label>
+                    <label for="name">First Name</label>
                     <br>
                     <input type="text" name="name">
                     <br>
@@ -49,15 +54,21 @@
                     <br>
                     <label for="date"> Date of Birth</label>
                     <br>
-                    <input type="date" name="name">
+                    <input type="date" name="date">
                     <br>
+                    <label for="age"> Age</label>
+                    <input type="age" name="Age">
                     <br>
+                </fieldset>
+                    <br>
+                <fieldset>
                     <label for="text">Sex</label>
                     <br>
                     <input type="checkbox" name="Sex"><span> Male</span>
                     <br>
                     <input type="checkbox" name="Sex"><span> Female</span>
                     <br>
+                </fieldset>
                     <br>
                     <br>
                     <p><h2><b>Enter your mobile phone number</b><h2></p>
@@ -66,6 +77,7 @@
                     <input type="phone" name="phone">
                     <br>
                     <br>
+                
                     <p><h2> Address of Residence</h2></p>
                     <label for="Address"> Street Address</label>
                     <input type="text" name="Address">
@@ -76,12 +88,80 @@
                     <label for="city"> City</label>
                     <input type="text" name="City">
                     <label for="State"> State</label>
-                    <input type="state" name=State>
+                    <select name="State" size="1">
+                    <option value="select">Select</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="DC">Dist of Columbia</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                    </select>
                     <br>
                     <label for="number"> Postal / Zip Code</label>
                     <input type="number" name="number">
-                    <label for="country"> Country</label>
-                    <input type="country" name="Country">
+                    <label for="country" name Country></label>
+                    
+                    <select name="country" name="country">
+                        <option value="select" >Select</option>
+                        <option value="es" >Spain</option>
+                        <option value="mx" >Mexico</option>
+                        <option value="usa"> Estadoos Unidos</option>
+                        <option value="cr"> Costa Rica</option>
+                        <option value="dr"> Dominican Republic</option>
+                        <option value="col">Colombia</option>
+                        <option value="vzl">Venezuela</option>
+                        <option value="pan">Panama</option>
+                        <option value="itl">Italia</option>
+                        <option value="sout"> South Africa</option>
+                        <option value="chi"> China</option>
+                        <option value="jap">Japan</option>
+                    </select>
                     <br>
                     <br>
                     <br>
@@ -110,7 +190,7 @@
                     
                     <p><h2>Create a password</h2></p>
                     <label for="Password" name="Password"></label>
-                    <input type="password" name="Password">
+                    <input type="password" name="Password" required size="10">
                     <br>
                     <p><ul>
                         <li> At least 8 charcaters</li>
@@ -125,54 +205,7 @@
                     <input type="submit">
                     <input type="reset">
 
-
-
-
-
-
-
-
-
-
-                                        
                     
-
-
-
-
-
-
-
-
-                    
-                     
-
-
-
-
-
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
 </main>
 </body>
 
