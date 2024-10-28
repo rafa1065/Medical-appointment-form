@@ -1,45 +1,64 @@
-<Html:5>
-    <!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Medical Appoitment</title>
 </head>
-        
+<link rel="stylesheet" href="css/master2.css">
+
 <body>
-        <header><h3>Medical Appoiment Form</h3></header>
+<main>
+    <div id="caja">
+        <header>
+            <h1>Medical Appointment Form</h1>
+        </header>
+    </div>
+    <div id="pic1">
 
         <img src="img/pic2.jpg" height="400" width="400">
-            <br>
+        <br>
+    </div>
+
+    <div id="caja1">
         <fieldset>
+        <div>
             <label for="Email">Introduce Email</label>
             <input type="Email" name="Email" placeholder="email@gmail.com">
+        </div>
             <br>
+        <div>
             <label for="Password">Password</label>
             <input type="password" name="password" >
+        </div>
             <br>
+        <div>
             <label for="text"> Log in</label>
             <input type="Login" name="text">
+        </div>
             <br>
+        <div>
             <p><b><u> Forgot the password</u></b></p>
+        </div>
             <br>
         </fieldset>
-            <br>
-            
+    </div>
 
-            <hr>
-            
+        <br>
+        <hr>
+        <div id="caja2">
             <p><h1>Zocdoc</h1></p>
                 <img src="img/pic1.png" height="50" widht="50"><h4><i>Dr. Angela Karavasilis, DO </i></h4>
                 <p><h5>Fri, Oct 6 - 2.00pm EDT</h5></p>
                 <p><h5>215 Beach St, Malden, MA, 02148</h5></p>
                 <p><h2>Tell us  a bit about you</h2></p>
                 <p><h5>To book yor appoitment, we need to verifiy a few things for Dr.Karavasilis</h5></p>
-
-                <form action="http://httpbin.org/get">
+        </div>
+        <br>
+                <form action="http://httpbin.org/get"></form>
+        <div id="caja3">
                 <fieldset>
-                    <legend><b>Pacient info</b></legend>
+                    <legend><h2><b>Pacient info</b></h2></legend>
                     <label for="name">Email</label>
                     <br>
                     <input type="text" name="Email" placeholder="email@gmail.com">
@@ -60,7 +79,9 @@
                     <input type="age" name="Age">
                     <br>
                 </fieldset>
-                    <br>
+        </div>
+                <br>
+        <div id="caja4">
                 <fieldset>
                     <label for="text">Sex</label>
                     <br>
@@ -69,16 +90,18 @@
                     <input type="checkbox" name="Sex"><span> Female</span>
                     <br>
                 </fieldset>
+        </div>
                     <br>
-                    <br>
-                    <p><h2><b>Enter your mobile phone number</b><h2></p>
+        <div id="caja5">
+                    <p><h2><b>Enter your mobile phone number</b></h2></p>
                     <p><span><h4>We'll text you to verify your account</h4></span></p>
                     <label for="phone"></label>
                     <input type="phone" name="phone">
+        </div>
                     <br>
-                    <br>
-                
-                    <p><h2> Address of Residence</h2></p>
+        <div id="caja6">
+                    <fieldset>
+                    <legend><h2> Address of Residence</h2></legend>
                     <label for="Address"> Street Address</label>
                     <input type="text" name="Address">
                     <br>
@@ -145,9 +168,8 @@
                     <br>
                     <label for="number"> Postal / Zip Code</label>
                     <input type="number" name="number">
-                    <label for="country" name Country></label>
-                    
-                    <select name="country" name="country">
+                    <label for="country" name country></label>
+                    <select name="country" >
                         <option value="select" >Select</option>
                         <option value="es" >Spain</option>
                         <option value="mx" >Mexico</option>
@@ -162,11 +184,14 @@
                         <option value="chi"> China</option>
                         <option value="jap">Japan</option>
                     </select>
+                    </fieldset>
+        </div>
                     <br>
                     <br>
-                    <br>
-                    <p><h2> Visit reason</h2></p>
-                    <p><span> Common condition and services</span></p>
+        <div id="caja7">
+                <fieldset> 
+                    <legend><b><h2>Visit Reason</h2></b></legend>
+                    <p><strong> Common condition and services</strong></p>
                     <label for="radio"> </label>
                     <input type="radio" name="radio"><span>Depresion </span>
                     <br>
@@ -177,18 +202,25 @@
                     <input type="radio" name="radio"><span>Neck Pain</span>
                     <br>
                     <input type="radio" name="radio"><span>Sciatica </span>
+                </fieldset>
                     <br>
+        </div>
+
                     <br>
-                    <p><h2>Preferred time of day</h2></p>
-                    <input type="checkbox" name=" "><span>Early Morning (1)</h4></span>
+        <div id="caja9">
+                <fieldset>
+                    <legend><b><h2>Preferred time of day</h2></b></legend>
+                    <input type="checkbox" name=" "><span>Early Morning (1)</span>
                     <p>Starts before 10 am</p>
                     <input type="checkbox" name=" "><span> Morning (4)</span>
                     <p>Starts before 12 pm</p>
                     <input type="checkbox" name=" "><span> Afternoon (4)</span>
                     <p>Starts after 12 pm</p>
+                </fieldset>
+        </div>
                     <br>
-                    
-                    <p><h2>Create a password</h2></p>
+        <div id="caja8">
+                    <p><h1>Create a password</h1></p>
                     <label for="Password" name="Password"></label>
                     <input type="password" name="Password" required size="10">
                     <br>
@@ -198,16 +230,17 @@
                         <li> Use numbers</li>
                         <li> Use special characters, like @#$%^&*</li>
                     </ul></p>
+        </div>
                     <br>
-                    <input type="checkbox" name=""><span>I have read and accept Zocdoc's <B><u>Terms of use</u></B> and <B><u>Privacy Policy.</u></B></span>
+                <footer>
+                    <input type="checkbox" name=""><span>I have read and accept Zocdoc's <b><u>Terms of use</u></b> and <b><u>Privacy Policy.</u></b></span>
                     <br>
                     <br>
                     <input type="submit">
                     <input type="reset">
-
-                    
+                </footer>
+        
+    
 </main>
 </body>
-
-
-</Html:5>
+</html>

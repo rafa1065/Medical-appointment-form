@@ -1,0 +1,99 @@
+
+body{
+    background-color: turquoise;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        
+}
+
+
+
+#caja{
+    border:1px black solid;
+    background-color: whitesmoke;
+
+
+}
+
+#caja1{
+
+    text-align: center;
+    background-color: lightgray;
+    border:1px black solid;  
+     
+
+
+ }
+
+ #caja2{
+
+    text-align: left;
+    background-color: lightgray ;
+    font-size: larger;
+    border:1px black solid;
+ }
+
+ #caja3{
+
+    text-align:left;
+    background-color: lightgray ;
+    border:1px black solid;
+ }
+
+ #caja4{
+
+    text-align: left;
+    background-color: lightgray ;
+    border:1px black solid;
+
+ }
+
+ #caja5{
+
+    text-align:left;
+    background-color: lightgray ;
+    border:1px black solid;
+ }
+
+#caja5{
+
+    text-align: left;
+    background-color: lightgray ;
+    border:1px black solid;
+
+ }
+ #caja6{
+
+    text-align:left;
+    background-color: lightgray ;
+    border:1px black solid;
+ }
+
+ #caja7{
+
+    text-align: left;
+    background-color: lightgray ;
+    border:1px black solid;
+
+ }
+
+ #caja8{
+
+    text-align:left;
+    background-color: lightgray ;
+    border:1px black solid;
+ }
+ #caja9{
+
+    text-align:left;
+    background-color: lightgray ;
+    border:1px black solid;
+ }
+
+
+ footer {
+    text-align:justify;
+    font-size: larger;
+    border:1px black solid;
+ }
+
